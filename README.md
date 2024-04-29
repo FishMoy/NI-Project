@@ -43,3 +43,35 @@
 20221112 开始开发项目并完成readme [FishMoy]
 
 20221113 基本写完1.4之前的内容 [FishMoy]
+
+#NI Project
+The purpose of this program is to help major coders/programmers quickly connect their personal programs to network interfaces, in order to compare local programs with network data. You can also develop a synchronization program for the internal LAN.
+##What you need to prepare to use NI Project:
+(1. A website that can transfer information (email can also be used, as long as it can transmit information)
+(2) Your unfinished program code
+(3) An easy language that has been cracked by a encryption dog
+##The principle of this program
+You can use this program with complete confidence, as all data exchange takes place in the local file library, except for obtaining data. This means that if you need to add this Project, you just need to add a read file for your program.
+##Precautions during use
+###You can use this program to crawl, but please read the robot files of various websites in detail first
+If you use this program to violate the website's crawling rules, please bear the consequences.
+###Most of this program is written in Easy Language, but it will not affect the code you are writing.
+This program is actually a network reading system, so it will not have any impact on your software.
+##This program tutorial
+###1.1- Define Your Link
+You can directly import your blank text web page link, allowing the interface to directly retrieve text between<head><p></p></head>. When entering a website address, be sure to include http://or https://
+###1.2- Custom elements in reading pages
+Select the content web page, enter the search header and search tail, and have the interface automatically search for text.
+###1.3- Read email page
+This part relies on the implementation of the email function, and you need to prepare a testing email and a file reading email. If no testing is required, under normal circumstances only one file reading email is needed. The implementation of this function relies on NetEase email. Because the new NetEase email account will not be banned if it receives too many emails. The email function is not required for reading files.
+(1) Select the email page, enter the account and password for the file reading email, and connect the interface to the NetEase email server. At the same time, enter the desired interval time for reading emails. (It is recommended to use a 1-minute interval)
+(2) Use a testing email and send an email to the file reading email with free content.
+(3) Check the printfs.fm file in the Congifs directory, check the [text] configuration item, and check if the email sent by the test email matches the content of the configuration item.
+If the content is consistent, it indicates that the basic configuration environment has been completed.
+###1.4- Link Reading File Rules
+The printfs.fm file mentioned earlier is not the final output result, but an intermediate file. Please open the Transcription. e source code in the Programs directory and run it in Easy Language.
+Simply put, Transcription. e can help you customize the extraction of required information from strings, that is, modify file reading rules.
+How to read and write the configuration file of Transcription. e will be explained in the next update, as it only achieves so many functions now.
+##Program log==TEST LOGS
+Starting project development and completing readme [FishMoy] on November 12, 2022
+20221113 basically completed the content before 1.4 [FishMoy]
